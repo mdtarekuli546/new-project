@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo h2:hover{
+    font-size:35px;
+    padding: 0;
+}
+.header{
+text-align: center;
+background-color: rgba(3, 49, 49, 0.447);
+}
+.row:after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.logo{
+width: 10%;
+float: left;
+}
+.mane-menu{
+    width: 60%;
+    float: left;
+}
+.search{
+    width: 30%;
+    float: left;
+}
+#bbb{
+    float: left;
+   margin-top: 18px;}
+form{
+    float:center;
+
+}
+#inm{
+    width: 50%;
+}
+jj {
+	float: left;
+	width: 29px;
+	height: 27px;
+	background-color: aqua;
+	color: black;
+	border-radius: 14px;
+	margin-top: 15px;
+    opacity: 0;
+}
+
+#bbb{opacity: 0;
+font-size: 20px;
+color: #ffffff;
+margin-right: 20px;
+}
+@media all and (max-width:1200px){
+	jj {
+        opacity: 1;
+    }
+    input{
+        opacity: 0;
+    }
+    .mane-menu{
+        width: 80%;
+        float: left;
+    }
+    .search{
+        width: 10%;
+        float: left;}
+     .header{
+        height: 70px;
+     }
+     jj:hover input{
+        opacity: 1;
+     }
+}
+@media all and (max-width:990px){
+    #bbb{opacity: 1;}
+    .search{
+    width:40%;
+    float:center;}
+    .mane-menu{
+    opacity: 0;
+    width: 50%;
+}
+    .mmm{float: right;}
+}
+#in {
+	width: 100%;
+}
+
+/* .mane-menu{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+} */
+.search input{
+    margin: 13px;
+    padding: 1px 5px;
+    margin-right: 0;
+}
+.logo h2{
+    margin: 13px;
+    color: rgb(241, 31, 136);
+    text-shadow: 3px 3px 3px black;
+}
+.bangladesh:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #d4d7dd42;
+    position: absolute;
+}
+.bangladesh h1{
+    
+	z-index: 99;
+}
+.mane-menu ul{
+
+    margin: 13px;
+    list-style: none;
+    
+}
+.mane-menu ul li{
+ display: inline-block;
+  
+}
+.mane-menu ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(15, 15, 14);
+    padding: 5px 10px;
+    background-color: aliceblue;
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px black;
+    font-weight: 700;
+}
+.mane-menu ul li a:hover{
+    color: rgb(240, 7, 7);
+    transform: rotatey(-45deg);
+    background-color: beige;
+}
+.aaa{
+    background-color: beige;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 2px;
+    box-shadow: 3px 3px 8px rgb(27, 18, 18);
+}
+.aaa:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+
+.bangladesh{
+    width: 100%;
+    height:400px;
+    background-image: url(benar.png);
+    background-attachment: fixe;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.America{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#a0aac5,#ffffff);
+    
+}
+/* .America:hover.bn{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    transform: rotate(-1deg);
+} */
+/* .America:hover.boxing{
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+    transform: rotate(-1deg);
+
+} */
+.canada{
+    width: 100%;
+    height:100%;
+    background: linear-gradient(#ffffff,#a0aac5);
+}
+.Rasiya{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#a0aac5,#ffffff);
+}
+.India{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(#ffffff,#a0aac5);
+}
+.Nepal{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(#a0aac5,#ffffff);
+}
+.Pakisthan{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(#ffffff,#a0aac5);
+}
+h1{
+    text-align: center;
+    padding-top: 60px;
+    color: brown;
+    margin-bottom:20px;
+   
+}
+.bn {
+
+width:90%;
+margin:0 auto;
+background-color:#fff;
+text-align: center;
+text-align: justify;
+padding: 30px;
+display: block;
+border-radius: 5px;
+box-shadow: 3px 3px 20px black;
+height: 100%;
+animation:anime 1s linear infinite;
+margin-bottom: 30px;
+}
+.ban{
+
+    width:80%;
+    margin:0 auto;
+    background-color: rgb(245, 254, 251);
+    text-align: center;
+    text-align: justify;
+    padding: 30px;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px black;
+    height: 100%;
+    animation:anime 1s linear infinite;
+    }
+ .mane-menu-2{
+    background-color: rgb(82, 59, 59);
+    opacity: 0;
+ } 
+ .mane-menu-2 ul{list-style: none;
+    margin: 0;
+    padding: 0;
+} 
+ .mane-menu-2 ul li{
+    background-color:rgb(135, 80, 156);
+    text-align: center;
+  
+} 
+ .mane-menu-2 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px auto;
+    display: block;
+}
+.mane-menu-2 ul li a:hover{
+    background-color: aqua;
+}
+.boxing {
+
+    width:90%;
+    height: 90%;
+    margin:0 auto;
+    background-color: rgb(241, 247, 245);
+    text-align: center;
+    text-align: justify;
+    padding: 30px;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px black;
+    animation:anime 1s linear infinite;
+   
+    }
+    div:nth-child(1){
+        animation-delay:0.2s;
+    }
+    div:nth-child(2){
+        animation-delay:0.4s;
+    }
+    @keyframes anime{
+        0%{
+            filter:hue-rotate(0deg);
+        }
+        100%{
+            filter:hue-rotate(360deg);
+        }
+    }
+    .boxing h3{
+        text-align: center;
+        font-weight: 600;
+    }
+    .box{
+      margin:auto;
+      width: 80%;
+      height: 90%;
+    }
+    .box img{
+        width: 100%;
+        text-align: center;
+        height: 90%;
+        border-radius:50%;
+       box-shadow: 3px 3px 20px black;
+
+    }
+    /* canada */
+ .card{
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+    box-shadow:1px 1px 20px rgb(34, 240, 48),
+				1px 1px 40px rgb(13, 221, 30);
+	animation:anime 1s linear infinite;
+    border-radius: 20px;
+ } 
+ .vewu a{
+    text-decoration: none;
+    color:rgb(26, 27, 28);
+    font-size: 25px;
+ }
+ .div img{
+    box-shadow:1px 1px 20px rgb(24, 35, 24),
+    1px 1px 40px rgb(14, 43, 14);
+	animation:anime 3s linear infinite;
+    margin-top: 30px;
+ }
+ .div:hover.vewu a{
+  opacity: 1;
+ }
+ .div{
+    position: relative;
+ }
+ .vewu {
+	position: absolute;
+	left: 0;
+	width: 300px;
+	height: 91%;
+	background-color: rgba(21, 17, 17, 0.404);
+	transition: all linear .3s;
+	top: 30px;
+}
+ .vewu a{
+    position: absolute;
+    bottom:42%;
+    left: 41%;
+ }
+ .vewu a{
+    opacity:0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
